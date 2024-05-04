@@ -2,7 +2,7 @@ import os
 import sys
 import platform
 
-print("Installing the python modules required for the MassDm:")
+print("Installations des modules pythons requis pour la desinfection:")
 if sys.platform.startswith("win"):
     "WINDOWS"
     os.system("pip install --upgrade pip install psutil")
